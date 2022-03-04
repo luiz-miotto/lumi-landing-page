@@ -1,0 +1,41 @@
+
+
+
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+
+.header{
+    background-color: darkblue;
+}
+
+.section3{
+    background-color: #eeeeee;
+}
+
+
+.section4{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.footer{
+    background-color: blue;
+    justify-content: flex-end;
+}
