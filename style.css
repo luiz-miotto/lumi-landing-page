@@ -20,6 +20,58 @@ body{
 
 .header{
     background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.actual-header{
+   display:flex;
+   flex: auto;
+   width: 100%
+}
+
+ul{
+    display:flex;
+    margin-left: auto;
+    gap: 8px;
+    
+}
+
+
+.body-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+    gap: 40px;
+}
+
+.smoke-weed{
+    align-self: flex-start;
+}
+
+.eldenlumi-body{
+    display:flex;
+    flex-direction: column;
+}
+
+.elden-ring1{
+    width: 200px;
+    height: 100px;
+    display:flex;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.image-list{
+    width:250px;
+    height:200px;
 }
 
 .section3{
