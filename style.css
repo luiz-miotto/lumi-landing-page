@@ -77,13 +77,14 @@ h1{
 
 .actual-section2{
     display:flex;
-    gap: 8px;
+    gap: 30px;
 }
 
 .image-list{
     width:250px;
     height:200px;
     border-radius: 12px;
+    
 }
 
 .photo-description{
@@ -92,6 +93,13 @@ h1{
     align-items: center;
 }
 
+
+.img-text{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .actual-section3{
     display:flex;
     align-items: center;
@@ -144,7 +152,6 @@ h1{
 
 .content{
     display:flex;
-    justify-content:space-between;
     align-items: center;
     gap: 120px;
 }
@@ -154,4 +161,27 @@ h1{
     display:flex;
     background-color: #666699;
     justify-content: center;
+}
+
+
+.white-text{
+    color: white
+}
+
+.parent-call{
+    display:flex;
+    flex-direction: column;
+    
+    
+}
+
+.call-to-action{
+   
+    font-size: 24px;
+    margin:0px;
+
+}
+
+.call-to-action2{
+    margin:0px;
 }
