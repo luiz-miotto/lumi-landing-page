@@ -41,8 +41,14 @@ ul{
 }
 
 h1{
-    font-size: 40px;
+    font-size: 48px;
+    margin:0px;
 
+}
+
+.only-source{
+    margin:0px;
+    font-size: 24px;
 }
 
 .body-header{
@@ -53,8 +59,11 @@ h1{
     gap: 200px;
 }
 
+
 .smoke-weed{
     align-self: flex-start;
+    margin-top: 8px;
+    background-color: #00e600;
 }
 
 .eldenlumi-body{
@@ -66,6 +75,7 @@ h1{
     width: 450px;
     height: 200px;
     display:flex;
+    border-radius: 12px;
 }
 
 .section2{
@@ -84,6 +94,7 @@ h1{
     width:250px;
     height:200px;
     border-radius: 12px;
+    border: 5px solid #00e600;
     
 }
 
@@ -125,6 +136,7 @@ h1{
 .quote-author{
     display: flex;
     align-self:flex-end;
+    font-weight: 900;
     
 }
 
@@ -184,4 +196,14 @@ h1{
 
 .call-to-action2{
     margin:0px;
+}
+
+button{
+    background-color:#0099cc;
+    border-radius: 6px;
+    
+    color: white;
+    border-color: white;
+    height:40px;
+    width:100px;
 }
